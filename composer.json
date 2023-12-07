@@ -22,7 +22,7 @@
         "php": ">=7.4",
         "ext-json": "*",
         "avadim/fast-excel-writer": "dev-queue-write-buffer",
-        "avadim/fast-excel-reader": "^2.11",
+        "avadim/fast-excel-reader": "dev-main",
         "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
         "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0"
     },
@@ -43,6 +43,10 @@
     "repositories": [
         {
             "url": "https://github.com/lrakauskas/fast-excel-writer.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/lrakauskas/fast-excel-reader.git",
             "type": "git"
         }
     ]
